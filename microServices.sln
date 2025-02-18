@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "userService", "userService", "{01EF5475-7069-4BD1-9215-A240848C37CF}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway_service", "Gateway_service", "{F9A36C1B-F56C-41A9-B747-06F7D3DD2A2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{DA08129E-E87F-48DB-9C0C-8236E68F91A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Application", "User.Application\User.Application.csproj", "{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DA08129E-E87F-48DB-9C0C-8236E68F91A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA08129E-E87F-48DB-9C0C-8236E68F91A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA08129E-E87F-48DB-9C0C-8236E68F91A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{28E09AA3-F156-4AC2-A19E-7E8CF023E1AA} = {01EF5475-7069-4BD1-9215-A240848C37CF}
 		{9B217376-738B-42FF-93F8-F4ED9E6E5F7C} = {49CB821F-2A20-4359-A0A5-77AB0B509E73}
 		{DA08129E-E87F-48DB-9C0C-8236E68F91A4} = {F9A36C1B-F56C-41A9-B747-06F7D3DD2A2D}
+		{1CCC33F1-41BA-4EB0-BCC1-712F2B8A0D40} = {01EF5475-7069-4BD1-9215-A240848C37CF}
 	EndGlobalSection
 EndGlobal
